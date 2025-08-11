@@ -133,7 +133,7 @@
                 <div class="row mb-5">
                     <div class="col-4 mt-5">
                         <div class="img">
-                            <a href="{{ url('/event/1') }}"><img class="w-75" src="{{ asset('assets') }}/img/poster/poster-1.jpg" alt="jancok"></a>
+                            <a href="{{ url('/event/1') }}"><img class="w-75 hover-shadow hover-mencungul" src="{{ asset('assets') }}/img/poster/poster-kejurcab-pagarnusa.jpg" alt=""></a>
                             <p class="mb-0 mt-4" >By: SMKN 1 SURABAYA</p>
                             <h3 class="mt-1 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
                             <a href="{{ url('/event/1') }}" class="text-decoration-none">Pendaftaran</a>
@@ -175,19 +175,19 @@ with you.</p>
                     <ul class="list-unstyled">
                         <li class="mb-2"><a href="#about" class="text-muted text-decoration-none">About Us</a></li>
                         <li class="mb-2"><a href="#team" class="text-muted text-decoration-none">Our Team</a></li>
-                        <li class="mb-2"><a href="#contact" class="text-muted text-decoration-none">Contact</a></li>
+                        <li class="mb-2"><a href="#contact" class="text-muted text-decoration-none">Event</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <h4 class="h6 fw-semibold mb-3">Hubungi Kami</h4>
                     <div class="d-flex gap-2">
-                        <a href="#" class="social-icon text-white text-decoration-none">
+                        <a href="https://www.instagram.com/jawaraindonesia.co.id?igsh=cDVqZTJkNGcxeDRv" class="social-icon text-white text-decoration-none">
                             <i class="bi bi-instagram text-light"></i>
                         </a>
-                        <a href="#" class="social-icon text-white text-decoration-none">
+                        {{-- <a href="#" class="social-icon text-white text-decoration-none">
                             <i class="bi bi-facebook text-light"></i>
-                        </a>
-                        <a href="#" class="social-icon text-white text-decoration-none">
+                        </a> --}}
+                        <a href="mailto:jawaraindonesiam@gmail.com" class="social-icon text-white text-decoration-none">
                             <i class="bi bi-envelope text-light"></i>
                         </a>
                         <a href="https://maps.app.goo.gl/yNrmtc3NSemCFCBs9" class="social-icon text-white text-decoration-none" target="_blank">

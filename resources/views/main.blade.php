@@ -13,7 +13,16 @@
 <body>
     @yield('content')
 </body>
-
+<style>
+        .hover-shadow:hover {
+            box-shadow: 0 0.9rem 3rem rgba(0, 0, 0, .25) !important;
+            transition: box-shadow 0.3s ease;
+            transform: scale(1.05)
+        }
+        .hover-mencungul:hover {
+            transition: all 0.3s ease;
+        }
+    </style>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
