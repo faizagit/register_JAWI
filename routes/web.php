@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('home');
 });
 
@@ -37,6 +37,12 @@ Route::get('/kontingen', function () {
 Route::get('/datapeserta', function () {
     return view('register.dataPeserta');
 });
+Route::get('/superadmin', function () {
+    return view('superadmin.index');
+});
+Route::get('/admin', function () {
+    return view('admin.index');
+});
 
 Route::get('/invoice', function () {
     return view('invoice.invoice');
@@ -54,6 +60,8 @@ Route::get('/ketentuankelas-pdf', function () {
     $filePath = storage_path('app/public/ketentuan-kelas.pdf');
     return response()->download($filePath, 'Ketentuan-kelas.pdf');
 });
+
+
 
 
 
